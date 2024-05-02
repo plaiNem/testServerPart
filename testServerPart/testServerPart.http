@@ -1,0 +1,6 @@
+@testServerPart_HostAddress = http://localhost:5091
+
+GET {{testServerPart_HostAddress}}/image/
+Accept: application/json
+
+###
