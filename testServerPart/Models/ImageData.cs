@@ -1,13 +1,9 @@
-﻿using Newtonsoft.Json;
-using System.ComponentModel.DataAnnotations;
-
-namespace testServerPart.Models
+﻿namespace testServerPart.Models
 {
     /// <summary>
     /// ImageDataPath используется как Id :D
     /// </summary>
 
-    
     public class ImageData
     {
         public string? ImageDataPath { get; set; }

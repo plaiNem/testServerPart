@@ -3,7 +3,6 @@ using System.Collections.Concurrent;
 using System.Text.Json;
 using testServerPart.Contracts;
 using testServerPart.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace testServerPart.Services
 {
@@ -97,7 +96,7 @@ namespace testServerPart.Services
                 throw new Extensions.ImageException("Data saving error!", ex);
             }
         }
-       
+
         public async Task Edit(ImageData newData)
         {
             try
